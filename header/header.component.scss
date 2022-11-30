@@ -1,0 +1,38 @@
+.logoes {
+  background: #ffffff;
+  -webkit-box-shadow: 1px 4px 10px 0px rgba(209, 202, 209, 1);
+  -moz-box-shadow: 1px 4px 10px 0px rgba(209, 202, 209, 1);
+  box-shadow: 1px 4px 10px 0px rgba(209, 202, 209, 1);
+  height: 60px;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.avatar {
+  text-align: right;
+}
+.admin-one {
+  text-align: left;
+  font-size: 14px;
+}
+.admin-two {
+  text-align: center;
+  font-size: 12px;
+}
+.line {
+  border: 1px solid #c2b8b8;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  height: 70px;
+}
+.logout-icon {
+  cursor: pointer;
+}
+.hamburger-menu {
+  padding: 4px 8px;
+  min-width: auto;
+  border-radius: 100%;
+}

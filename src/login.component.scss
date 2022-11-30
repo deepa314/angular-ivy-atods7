@@ -1,0 +1,84 @@
+.cm-input {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  margin: 14px auto;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.cm-input:focus {
+  outline: 0;
+  border-color: #f9cb81;
+}
+.cm-input:invalid {
+  border-color: #e41b17;
+}
+.btn-login {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-login:focus {
+  outline: 0;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.gr-bg {
+  // background: rgb(252,205,128);
+  background: #0696e8;
+}
+.form-title {
+  padding: 12px;
+  text-align: center;
+  position: relative;
+}
+.form-title h2 {
+  color: #5c86e1;
+}
+.form-title .user-icon {
+  position: absolute;
+  font-size: 42px;
+  color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 45px;
+  top: -60px;
+  left: -45px;
+}
+.w-100 {
+  width: 100%;
+}
+.credentials-wrap {
+  height: calc(100vh - 60px);
+  h1 {
+    font-size: 32px !important;
+  }
+}
+.logo-wrap {
+  height: calc(100vh - 60px);
+  background: #f3f5f9;
+}
+.padding-15 {
+  padding: 0 15%;
+}
+.welcome-msg {
+  color: #999;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.txt-8 {
+  font-size: 8px;
+}

@@ -1,0 +1,30 @@
+<form [formGroup]="loginForm" class="login-form-wrap">
+  <div
+    class="credentials-wrap padding-15"
+    fxLayout="column"
+    fxLayoutAlign="center start"
+    fxFlex="50%"
+  >
+    <div class="m-b-20">
+      <h1 fxLayoutAlign="start center">LOGIN</h1>
+      <strong class="welcome-msg" *ngIf="!showOtpBox"
+        >Welcome ! Please enter your details</strong
+      >
+      <strong class="welcome-msg" *ngIf="showOtpBox"
+        >We've sent otp at {{ loginForm.controls['email'].value }}</strong
+      >
+    </div>
+    <p *ngIf="showOtpBox" class="m-t-12">
+      <a href="javascript:void()">Not you?</a>
+    </p>
+    <div>
+      <div class="mob-flex-column-center m-b-10" *ngIf="!showOtpBox">
+        <label>Your Email Address</label>
+
+        <input autocomplete="off" formControlName="email" />
+        <div matSuffix><img src="./assets/icons/user.svg" alt="" /></div>
+      </div>
+      <button (click)="submit()">Submit</button>
+    </div>
+  </div>
+</form>
